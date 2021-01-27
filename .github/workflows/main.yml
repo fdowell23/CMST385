@@ -26,9 +26,6 @@ jobs:
      uses: azure/webapps-deploy@v1
      
      with:
-      
-      app-name: 'cmst385-fdowell'
-      
+      app-name: 'cmst385-fdowell
       slot-name: 'production'
-      
       publish-profile: ${{ secrets.AppServiceCMST385 }}
