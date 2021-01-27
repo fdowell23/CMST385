@@ -25,9 +25,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@master
-
-    - name: Deploy to Azure Web App
+     - uses: actions/checkout@master
+       
+     - name: Deploy to Azure Web App
 
       uses: azure/webapps-deploy@v1
 
